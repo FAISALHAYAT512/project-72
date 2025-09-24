@@ -26,3 +26,10 @@ export default function RootLayout({
           </div>
         </header>
         <main className="container mx-auto p-6">{children}</main>
+        <footer className="bg-blue-900 text-white text-center p-4 mt-10">
+          <p>© 2025 GlobalTech Innovations | Powered by Next.js 15</p>
+        </footer>
+      </body>
+    </html>
+  );
+}
